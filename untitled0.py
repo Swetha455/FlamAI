@@ -51,10 +51,10 @@ theta_opt, M_opt, X_opt = res_fine.x
 rad_opt = np.radians(theta_opt)
 
 print("=== OPTIMIZATION RESULTS ===")
-print(f"Theta (degrees): {theta_opt:.4f}° -> Exact: 30°")
-print(f"Theta (radians): {rad_opt:.10f} rad -> Exact: pi/6 (~0.5235987756)")
-print(f"M:               {M_opt:.4f} -> Exact: 0.03")
-print(f"X:               {X_opt:.4f} -> Exact: 55")
+print(f"Theta (degrees): {theta_opt:.4f}°")
+print(f"Theta (radians): {rad_opt:.10f} rad")
+print(f"M:               {M_opt:.4f}")
+print(f"X:               {X_opt:.4f}")
 print(f"L1 Distance:     {res_fine.fun:.6f}")
 
 # 5. Generate and Save Plot
